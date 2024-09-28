@@ -1,10 +1,10 @@
-//#include "wordFrequency.hpp"
+#include "wordFrequency.hpp"
 
 /*
 class definition for the node class
 */
 
-/*
+
 template <typename T>
 BinarySearchNode<T>::BinarySearchNode()
 {
@@ -56,5 +56,3 @@ void BinarySearchNode<T>::setRight(BinarySearchNode* wordRight)
 {
     this->right = wordRight;
 }
-
-*/
