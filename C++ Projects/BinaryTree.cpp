@@ -1,4 +1,4 @@
-/*#include "wordFrequency.h"
+#include "wordFrequency.h"
 
 BinaryTree::BinaryTree()
 {
@@ -21,7 +21,7 @@ BinarySearchNode* BinaryTree::insert(string insertWord)
     function returns the pointer to the newly constructed node
     if value is already in the tree, that pointer is returned instead
     */
-   /*
+   
    
    if(this->root == NULL)
    {
@@ -141,7 +141,7 @@ BinarySearchNode* BinaryTree::findHelper(string findWord, BinarySearchNode* temp
         if not found return null
         
     */
-    /*
+    
    
     if(root->getWord() == findWord)
     {
@@ -242,5 +242,3 @@ void BinaryTree::deleteCaseTwoChild(BinarySearchNode* parent, BinarySearchNode* 
     }
 
 }
-
-*/
